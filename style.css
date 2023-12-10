@@ -1,0 +1,34 @@
+.flow{
+    animation: cards;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    
+
+}
+@keyframes cards{
+    from{transform: translateX(0);
+
+    }
+    to{transform: translateX(-100%);
+
+    }
+}
+.flow2{
+    animation: cards;
+    animation-direction: reverse; 
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    
+
+}
+@keyframes cards2{
+    from{transform: translateX(0);
+
+    }
+    to{transform: translateX(-100%);
+
+    }
+}
